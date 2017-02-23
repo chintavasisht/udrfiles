@@ -1,0 +1,18 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "stdStorageName": {
+      "value": "vasstore1"
+    },
+    "stdStorageType": {
+      "value": "Standard_LRS"
+    },
+    "prmStorageName": {
+      "value": "vasprmstore1"
+    },
+    "prmStorageType": {
+      "value": "Premium_LRS" 
+    }
+  }
+}
